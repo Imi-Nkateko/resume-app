@@ -28,30 +28,31 @@ const Education = () => {
                     <label for="email">Course</label>
                     <input
                       type="text"
-                      name="email"
-                      id="email"
+                      name="course"
+                      id="course"
                       className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                     />
                   </div>
 
                   <div className="md:col-span-3">
-                    <label for="linkedIn">LinkedIn</label>
+                    <label for="linkedIn">Start Date</label>
                     <input
-                      type="url"
-                      name="linkedIn"
-                      id="address"
+                      type="date"
+                      name="startDate"
+                      id="startDate"
                       className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                       value=""
                       placeholder=""
+                      required
                     />
                   </div>
 
                   <div className="md:col-span-2">
-                    <label for="phone">Phone</label>
+                    <label for="phone">End Date</label>
                     <input
-                      type="tel"
-                      name="phone"
-                      id="phone"
+                      type="date"
+                      name="endDate"
+                      id="endDate"
                       className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                       value=""
@@ -59,23 +60,11 @@ const Education = () => {
                     />
                   </div>
 
-                  <div className="md:col-span-2">
-                    <label for="website">Website</label>
-                    <div className="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1">
-                      <input
-                        name="website"
-                        id="website"
-                        placeholder="Website"
-                        className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
-                        value=""
-                      />
-                    </div>
-                  </div>
-
+                 
                   <div className="md:col-span-5 text-right">
                     <div className="inline-flex items-end">
                       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                        Next
+                        + Education
                       </button>
                     </div>
                   </div>
