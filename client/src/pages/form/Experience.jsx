@@ -8,28 +8,28 @@ const Experience = () => {
           <div className="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
             <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
               <div className="text-gray-600">
-                <p className="font-medium text-lg">Education</p>
+                <p className="font-medium text-lg">Experience</p>
                 <p>Please fill out all the fields.</p>
               </div>
 
               <div className="lg:col-span-2">
                 <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
                   <div className="md:col-span-5">
-                    <label for="school_name">School / Institution</label>
+                    <label for="company">Company Name</label>
                     <input
                       type="text"
-                      name="school_name"
-                      id="school_name"
+                      name="company"
+                      id="company"
                       className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                     />
                   </div>
 
                   <div className="md:col-span-5">
-                    <label for="course">Course</label>
+                    <label for="course">Title</label>
                     <input
-                      type="text"
-                      name="course"
-                      id="course"
+                      type="title"
+                      name="title"
+                      id="title"
                       className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                     />
                   </div>
