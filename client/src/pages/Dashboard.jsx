@@ -1,12 +1,16 @@
 import Person from "./form/Person";
 import Education from "./form/Education";
+import Experience from "./form/Experience";
+import Skills from "./form/Skills";
 
 const Dashboard = ({ generalInfo }) => {
   return (
     <div className="grid grid-cols-2 gap-4 h-screen">
       <div className="grid overflow-auto gap-0">
         <Person />
+        <Experience />
         <Education />
+        <Skills />
       </div>
       <div className="flex overflow-auto h-[600px] bg-gray-300">
         <div className="m-4 h-[297mm] w-[210mm] overflow-hidden rounded-md bg-white p-8 shadow-lg">
